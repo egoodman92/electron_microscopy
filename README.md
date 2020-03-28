@@ -1,6 +1,6 @@
 # Transmission Electron Microscopy and Machine Learning
 
-One Paragraph of project description goes here
+Various projects involving electron microscopy and computer vision. First, we'll start with identification of nanocrystals in supported catalysts. Second, we'll learn to identify oxidation states of materials using only electron micrographs of the material.
 <!--
 ## Getting Started
 
