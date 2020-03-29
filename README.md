@@ -1,11 +1,16 @@
 # Transmission Electron Microscopy and Machine Learning
 
 Various projects involving electron microscopy and computer vision. First, we'll start with identification of nanocrystals in supported catalysts. Second, we'll learn to identify oxidation states of materials using only electron micrographs of the material.
+
+<p align="center">
+  <img width="340" height="340" src="RepClass.jpg">
+</p>
+
 <!--
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+![](RepClass.jpg)
 ### Prerequisites
 
 What things you need to install the software and how to install them
