@@ -6,14 +6,16 @@ Various projects involving electron microscopy and computer vision. First, we'll
   <img width="340" height="340" src="RepClass.jpg">
 </p>
 
+### Prerequisites
+
+* Python (version >= 3.5)
+* Tensorflow (version 1.14)
+
 <!--
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ![](RepClass.jpg)
-### Prerequisites
-
-What things you need to install the software and how to install them
 
 ```
 Give examples
