@@ -1,0 +1,37 @@
+# https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087 (great for environment setup)
+# https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html (great for .Record files)
+
+Initialization process for GCP VM
+Easy commands:
+which python3 -> (Where is my python3 located?)
+which python -> (Where is my python located?)
+python3 --version (Which python3 version am I running?)
+python --version (Which python version am I running?)
+lsb_release -a (Tell me about my Linux OS)
+sudo apt install python3-pip (Installs pip3)
+pip3 install tensorflow (Install TF)
+python3 -c 'import tensorflow as tf; print(tf.__version__)' (Checks which version TF you're using) 
+    Somehow we're automatically using 1.14
+pip3 install pillow Cython lxml jupyter matplotlib
+sudo apt install git-all (Install git)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" (install homebrew)
+PATH=$PATH:/home/linuxbrew/.linuxbrew/bin (add brew to PATH)
+brew install protobuf (install protobuf)
+change into tensorflow directory
+clone tensorflow's object detection package (git clone https://github.com/tensorflow/models.git)
+protoc object_detection/protos/*.proto --python_out=.
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+python object_detection/builders/model_builder_test.py
+
+to download data from cloud bucket
+gcloud init (follow the remaining prompts)
+gsutil ls (shows you which buckets you have access to)
+gsutil cp -r gs://practicenanoparticles/ ~/.local/lib/python3.5/site-packages/tensorflow (copies bucket to VM folder)
+
+What to do if you exit out of ssh: (i.e. from bad connection)
+1. PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+2. brew install protobuf
+3. protoc object_detection/protos/*.proto --python_out=. #(has to be in research directory)
+5. export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+6. python3 object_detection/builders/model_builder_test.py
+7. python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_inception_v2_coco.config
