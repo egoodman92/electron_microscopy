@@ -1,6 +1,6 @@
 # Transmission Electron Microscopy and Machine Learning
 
-Various projects involving electron microscopy and computer vision. First, we'll start with identification of nanocrystals in supported catalysts. Second, we'll learn to identify oxidation states of materials using only electron micrographs of the material.
+Various projects involving electron microscopy and computer vision. First, we'll start with identification of nanocrystals in supported catalysts. Second, we'll learn to identify oxidation states of materials using only electron micrographs of the material. Object detection and classification done by fine-tuning ssd_inception_v2_coco object detection model on electron micrographs.
 
 <p align="center">
   <img width="340" height="340" src="RepClass.jpg">
