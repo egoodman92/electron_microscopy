@@ -11,6 +11,11 @@ Various projects involving electron microscopy and computer vision. First, we'll
 * Python (version >= 3.5)
 * Tensorflow (version 1.14)
 
+### Documentation
+
+* object_detection_NPs.ipynb - Perfected python notebook for testing your newly minted inference graphs
+* create_GCPVM_forNCDetection - Setting up google cloud virtual machine from scratch for object detection
+
 <!--
 ## Getting Started
 
