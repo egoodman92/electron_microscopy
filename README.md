@@ -5,6 +5,9 @@ Various projects involving electron microscopy and computer vision. First, we'll
 <p align="center">
   <img width="340" height="340" src="RepClass.jpg">
 </p>
+<p align="center">
+  <img width="340" height="340" src="RepClass2.jpg">
+</p>
 
 ### Prerequisites
 
