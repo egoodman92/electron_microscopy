@@ -1,5 +1,6 @@
 # https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087 (great for environment setup)
 # https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html (great for .Record files)
+# https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10/blob/master/doc/detector2.jpg (great for multiple classes)
 
 Initialization process for GCP VM
 Easy commands:
