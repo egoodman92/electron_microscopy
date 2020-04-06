@@ -6,7 +6,7 @@ Various projects involving electron microscopy and computer vision. First, we'll
   <img width="680" height="340" src="PdO_model.jpg">
 </p>
 <p align="center">
-  <img width="680" height="340" src="RuFeOx_model.jpg">
+  <img width="680" height="340" src="RuFeOx_heterostructures.jpg">
 </p>
 
 ### Prerequisites
