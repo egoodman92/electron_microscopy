@@ -19,7 +19,7 @@ Various projects involving electron microscopy and computer vision. First, we'll
 * object_detection_NPs.ipynb - Perfected python notebook for testing your newly minted inference graphs
 * create_GCPVM_forNCDetection - Setting up google cloud virtual machine from scratch for object detection
 * order_images.py - Used to relabel the order of .jpg/.xml in a folder
-* quad_split - Used to split a .jpg into quadrant .jpg's
+* image_subcrops.py - Used to split a .jpg into subcrops of equal size (.jpg)
 
 <!--
 ## Getting Started
