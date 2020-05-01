@@ -1,0 +1,29 @@
+https://hackernoon.com/instance-segmentation-in-google-colab-with-custom-dataset-b3099ac23f35
+https://colab.research.google.com/github/MarkDaoust/models/blob/segmentation_blogpost/samples/outreach/blogs/segmentation_blogpost/image_segmentation.ipynb
+https://www.dlology.com/blog/how-to-create-custom-coco-data-set-for-instance-segmentation/
+https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4
+https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly#configure-docker-for-windows
+https://detectron2.readthedocs.io/tutorials/datasets.html
+
+to open labelme, first open an anaconda prompt
+C:\Users\egood\Google Drive\NewData\MachineLearning\electron_microscopy\image_segmentation> #(location where I installed labelme)
+conda activate labelme
+labelme 	
+
+need to move labelme out of ~/.local/lib/python3.6/site-packages and into /mnt/c/users/egood/Google Drive/NewData/MachineLearning/electron_microscopy/image_segmentation
+
+cp -r ~/.local/lib/python3.6/site-packages/labelme /mnt/c/users/egood/Google*/NewData/MachineLearning/electron_microscopy/image_segmentation
+
+
+
+###############STRATEGY#FOR#IMAGE#SEGMENTATION###############
+1. Start label me using anaconda -> console_shortcut -> conda activate labelme -> labelme
+2. Using WSL, python3 labelme2coco.py images (from /mnt/c/users/egood)
+3. Now need to rearrange folders! Copy over trainval.json and images(with pics and json files inside) into same directory as COCO_Image_Viewer.ipynb
+
+
+#############WORKING#IN#GOOGLE#COLLAB#DETECTRON2#############
+
+
+
+https://github.com/tensorflow/models/tree/master/research/deeplab
