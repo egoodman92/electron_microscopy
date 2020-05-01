@@ -1,6 +1,6 @@
 # Transmission Electron Microscopy and Machine Learning
 
-Various projects involving electron microscopy and computer vision. First, we'll start with identification of nanocrystals in supported catalysts. Here, special effort is focused on low-contrast materials, such as PdO vs SiO2, and overlapping nanocrystals. Second, we'll learn to identify different elements in dumbbell RuFeOx nanoparticles. Finally, we'll identify oxidation states of materials using only electron micrographs of the material. Object detection and classification was performed by fine-tuning ssd_inception_v2_coco object detection model on electron micrographs. For PdO detection 91% nanocrystal detection accuracy was achieved, with no false positives.
+A computational toolbox of computer vision tools for processing and analyzing electron micrographs for applications in material science. Applications include (1) image classification (what material is in this image?) (2) particle size analysis (what are the ensemble properties of my material?) and (3) elemental spatial mapping (image segmentation, assigning an element on the periodic table to each pixel in the image).
 
 <p align="center">
   <img width="680" height="340" src="PdO_model.jpg">
