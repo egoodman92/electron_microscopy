@@ -6,7 +6,7 @@ A computational toolbox of computer vision tools for processing and analyzing el
   <img width="680" height="340" src="PdO_model.jpg">
 </p>
 <p align="center">
-  <img width="680" height="340" src="SegmentationSchematic.jpg">
+  <img width="534" height="340" src="SegmentationSchematic.jpg">
 </p>
 
 ### Directory Setup
