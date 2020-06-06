@@ -8,7 +8,5 @@ This work studies the classification and interpretation of ten different materia
 
 ### Documentation
 
-* object_detection_NPs.ipynb - Perfected python notebook for testing your newly minted inference graphs
-* create_GCPVM_forNCDetection - Setting up google cloud virtual machine from scratch for object detection
-* order_images.py - Used to relabel the order of .jpg/.xml in a folder
-* image_subcrops.py - Used to split a .jpg into subcrops of equal size (.jpg)
+* 10_supportsClassActivationMapsCAMs.ipynb - Python notebook for interpretation of material classification
+* SupportClassification_FineTuning_10Supports_Callbacks.ipynb - Python notebook for fine-tuning various models using augmentation etc.
