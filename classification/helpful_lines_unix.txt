@@ -1,5 +1,0 @@
-python3 xml_to_csv.py -i /mnt/c/users/egood/Anaconda3/Lib/site-packages/tensorflow/workingspace_NPs/training_demo/images/test -o /mnt/c/users/egood/Anaconda3/Lib/site-packages/tensorflow/workingspace_NPs/training_demo/annotations/test_labels.csv
-
-python3 generate_tfrecord.py --label=NP --csv_input=/mnt/c/users/egood/Anaconda3/Lib/site-packages/tensorflow/workingspace_NPs/training_demo/annotations/test_labels.csv --img_path=/mnt/c/users/egood/Anaconda3/Lib/site-packages/tensorflow/workingspace_NPs/training_demo/images/test  --output_path=/mnt/c/users/egood/Anaconda3/Lib/site-packages/tensorflow/workingspace_NPs/training_demo/annotations/test.record
-
-python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_inception_v2_coco.config
