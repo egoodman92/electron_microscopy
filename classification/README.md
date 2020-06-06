@@ -1,3 +1,7 @@
+# Material Classification
+
+This work studies the classification and interpretation of ten different materials based on their nanoscale images. The goal is to distinguish between various oxide nanomaterials, composed of different elements or even the same element but different morphology.
+
 best_ten_class_weights: p3 weights copied from ten_class_weights, found from SupportClassification_FineTuning_10Supports_Callbacks.ipynb
 ten_class_weights: p1, p2, p3 weights found from SupportClassification_FineTuning_10Supports_Callbacks.ipynb
 validation: ~6000 validation images
