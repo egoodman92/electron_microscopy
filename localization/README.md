@@ -28,6 +28,9 @@ This work object localization and classification of nanocrystal active sites in 
 │       ├── object_detection
 │           ├── train
 ```
+### Prerequisites
+Python (version >= 3.5)
+Tensorflow (version 1.14)
 
 ### Documentation
 
