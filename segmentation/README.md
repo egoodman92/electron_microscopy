@@ -1,6 +1,6 @@
-# Localization and Classification
+# Elemental Segmentation
 
-This work object localization and classification of nanocrystal active sites in transmission electron microscopy images. Our first simple goal is to automate particle size and facet analysis, which can be done slowly by humans already. This was achieved by fine-tuning a SSD-Inception_v2 model, and we demontrate high mAP values.
+This work aims to develop an algorithm to label each pixel in an electron micrograph with the corresponding element from the periodic table of elements. We use FAIR's newest object-detection and classification algorithms, based on Mask-RCNN.
 
 <p align="center">
   <img width="600" height="300" src="RuFeSeg.png">
@@ -19,8 +19,6 @@ This work object localization and classification of nanocrystal active sites in 
 * Torchvision (version 0.5)
 ### Documentation
 
-* Detection.ipynb - Comprehensive notebook including .csv and .record generation, GPU-training, and testing
-* xml_to_csv.py - Python script to convert folder of .xml files to a .csv file
-* generate_tfrecord.py - Python script to convert .csv file to .record file
-* train.py - Python script to train model
-* export_inference_graph.py - Export graph after model is finished training
+* NP_Detectron2.ipynb - Comprehensive notebook including used for fine-tuning Mask_RCNN to nanoparticles. Here, we studied the impact of training set size, and found even a handful (1-4) images was enough to achieve effective segmentation
+* image_segmentation_documentation.txt - Walkthrough, eventually will transcribe into readme
+* labelme2coco.py - Take .json files from labelme and convert to coco file for the Colab notebook
