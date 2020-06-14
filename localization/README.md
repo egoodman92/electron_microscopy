@@ -3,7 +3,7 @@
 This work object localization and classification of nanocrystal active sites in transmission electron microscopy images.
 
 <p align="center">
-  <img width="500" height="540" src="ClassActivationMap.jpg">
+  <img width="500" height="540" src="NanoparticleDetectionComparison.jpg">
 </p>
 
 ### Documentation
