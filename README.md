@@ -25,4 +25,5 @@ A computational toolbox of computer vision tools for processing and analyzing el
 The following are generally helpful scripts for working with electron micrographs:
 * order_images.py - Used to relabel the order of .jpg/.xml in a folder
 * image_subcrops.py - Used to split a .jpg into subcrops of equal size (.jpg)
+* create_GCPVM_forNCDetection - Text document for creating google cloud platform VM
 
