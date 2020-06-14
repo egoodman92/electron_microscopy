@@ -1,6 +1,6 @@
 # Localization and Classification
 
-This work object localization and classification of nanocrystal active sites in transmission electron microscopy images.
+This work object localization and classification of nanocrystal active sites in transmission electron microscopy images. Our first simple goal is to automate particle size and facet analysis, which can be done slowly by humans already. This was achieved by fine-tuning a SSD-Inception_v2 model, and we demontrate high mAP values.
 
 <p align="center">
   <img width="600" height="314" src="NanoparticleDetectionComparison.jpg">
