@@ -17,6 +17,9 @@ This work studies the classification and interpretation of ten different materia
 │   ├── Al2O3
 │   ├── ...
 │   └── TiO2
+├── ten_class_weights (stored via callbacks)
+├── 10supports_ClassActivationMapsCAMs.ipynb
+├── SupportClassification_FineTuning_10Supports_Callbacks.ipynb
 ```
 
 ### Image Preprocessing
