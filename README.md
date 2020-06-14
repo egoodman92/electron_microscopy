@@ -12,14 +12,9 @@ A computational toolbox of computer vision tools for processing and analyzing el
 ### Directory Setup
 
 ```
-├── train
-│   ├── Al2O3
-│   ├── ...
-│   └── TiO2
-├── validation
-│   ├── Al2O3
-│   ├── ...
-│   └── TiO2
+├── classification (distinguish between 10 metal oxides, with gradient class activation maps)
+├── localization (localized PdO nanocrystal active sites and extract structural features)
+├── segmentation (pixelwise labeling of Ru and Fe domains)
 ```
 
 ### Image Preprocessing
@@ -29,6 +24,8 @@ Model training and fine-tuning done on dataset of electron microscopy images col
 
 * Python (version >= 3.5)
 * Tensorflow (version 1.14)
+* PyTorch (version 1.5)
+* Torchvision (version 0.5)
 
 ### Documentation
 
