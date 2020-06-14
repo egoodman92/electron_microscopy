@@ -3,10 +3,7 @@
 A computational toolbox of computer vision tools for processing and analyzing electron micrographs for applications in material science. Applications include (1) image classification (what material is in this image?) (2) particle size analysis (what are the ensemble properties of my material?) and (3) elemental spatial mapping (image segmentation, assigning an element on the periodic table to each pixel in the image).
 
 <p align="center">
-  <img width="680" height="340" src="PdO_model.jpg">
-</p>
-<p align="center">
-  <img width="534" height="340" src="SegmentationSchematic.jpg">
+  <img width="680" height="340" src="summary_picture.png">
 </p>
 
 ### Directory Setup
