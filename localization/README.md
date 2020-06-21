@@ -6,7 +6,9 @@ This work localizes and classifies active sites for chemical reactions in transm
   <img width="600" height="314" src="NanoparticleDetectionComparison.jpg">
 </p>
 
-![](PdO_on_Al2O3.gif)
+<p align="center">
+  <img width="600" height="314" src=PdO_on_Al2O3.gif>
+</p>
 
 ### Directory Setup
 
