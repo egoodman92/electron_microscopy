@@ -6,10 +6,6 @@ This work localizes and classifies active sites for chemical reactions in transm
   <img width="600" height="314" src="NanoparticleDetectionComparison.jpg">
 </p>
 
-<p align="center">
-  <img width="600" height="314" src=PdO_on_Al2O3.gif>
-</p>
-
 ### Directory Setup
 
 The following is the directory setup for using colab notebook:
@@ -41,3 +37,7 @@ I have found the tensorflow object detection API to be quite sensitive to these 
 * xml_to_csv.py - Python script to convert folder of .xml files to a .csv file
 * generate_tfrecord.py - Python script to convert .csv file to .record file
 * export_inference_graph.py - Export graph after model is finished training
+
+<p align="center">
+  <img width="600" height="396" src=PdO_on_Al2O3.gif>
+</p>
