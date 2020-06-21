@@ -6,6 +6,8 @@ This work localizes and classifies active sites for chemical reactions in transm
   <img width="600" height="314" src="NanoparticleDetectionComparison.jpg">
 </p>
 
+![](PdO_on_Al2O3.gif)
+
 ### Directory Setup
 
 The following is the directory setup for using colab notebook:
