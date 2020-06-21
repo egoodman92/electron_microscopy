@@ -38,6 +38,10 @@ I have found the tensorflow object detection API to be quite sensitive to these 
 * generate_tfrecord.py - Python script to convert .csv file to .record file
 * export_inference_graph.py - Export graph after model is finished training
 
+### Prerequisites
+
+Detection of nanocrystal active sites on an oxidized palladium aluminum catalyst. 
+
 <p align="center">
   <img width="600" height="396" src=PdO_on_Al2O3.gif>
 </p>
