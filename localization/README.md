@@ -40,7 +40,7 @@ I have found the tensorflow object detection API to be quite sensitive to these 
 
 ### Prerequisites
 
-Detection of nanocrystal active sites on an oxidized palladium aluminum catalyst. 
+Detection of nanocrystal active sites on an oxidized palladium aluminum catalyst:
 
 <p align="center">
   <img width="600" height="396" src=PdO_on_Al2O3.gif>
