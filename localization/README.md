@@ -1,6 +1,6 @@
 # Localization and Classification
 
-This work localizes and classifies active sites for chemical reactions in transmission electron microscopy images. Our first goal is to automate particle size and facet analysis, which can be done slowly by humans already. Our best mean average precision of .951 (IoU=0.5) was achieved by fine-tuning a Faster-RCNN Inception Resnet V2 network on transmission electron microscopy images.
+This work localizes and classifies active sites for chemical reactions in transmission electron microscopy images. Our first goal is to automate particle size and facet analysis, which can be done slowly by humans already. Our best mean average precision of .951 (IoU=0.5) was achieved by fine-tuning a Faster-RCNN Inception Resnet V2 network on transmission electron microscopy images. Ongoing efforts to create models that span different classes of materials, and can be used in a real-time object detection in video.
 
 <p align="center">
   <img width="600" height="314" src="NanoparticleDetectionComparison.jpg">
