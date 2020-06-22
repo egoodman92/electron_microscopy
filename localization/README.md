@@ -43,5 +43,5 @@ I have found the tensorflow object detection API to be quite sensitive to these 
 Detection of nanocrystal active sites on an oxidized palladium aluminum catalyst:
 
 <p align="center">
-  <img width="600" height="396" src=PdO_on_SiO2.gif>
+  <img width="450" height="450" src=PdO_on_SiO2.gif>
 </p>
