@@ -28,7 +28,7 @@ Model training and fine-tuning done on dataset of electron microscopy images col
 ### Prerequisites
 
 * Python (version >= 3.5)
-* Tensorflow (version 1.14)
+* Tensorflow (version 2.2.0)
 
 ### Documentation
 
