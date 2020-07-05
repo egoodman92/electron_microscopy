@@ -34,5 +34,6 @@ Model training and fine-tuning done on dataset of electron microscopy images col
 
 * 10_supportsClassActivationMapsCAMs.ipynb - Python notebook for interpretation of material classification
 * SupportClassification_FineTuning_10Supports_Callbacks.ipynb - Python notebook for fine-tuning various models using augmentation etc.
+* data_augmentation_visualized.ipynb - python notebook for visualizing augmentations from image generator
 
 
